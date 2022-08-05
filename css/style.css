@@ -89,9 +89,8 @@ form {
 .container__footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin-top: 50px;
+    justify-content:center;
+    text-align: center;
     
 }
 
@@ -103,7 +102,7 @@ form {
 }
 
 .box__footer .logo img{
-    width: 100px;
+    width: 150px;
 }
 
 .box__footer .nosotros{
