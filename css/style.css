@@ -1,193 +1,163 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-   
-} 
-
-header {
-    text-align:center ;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: radial-gradient(grey, black);
-    color: greenyellow;
-    
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: gray;
-    color: greenyellow;
-    border-color: greenyellow;
-    border-style:groove;
-    font-size:xx-large;
-    border-width: 5px;
-    border-radius: 10px;
-    text-align: center;
+header {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: radial-gradient(grey, black);
+  color: greenyellow;
 }
 
 .navbar {
-   
-    font-size:x-large;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-
-.navbar-brand {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: gray;
-    color: greenyellow;
-    border-color: greenyellow;
-    border-style:groove;
-    font-size:xx-large;
-    border-width: 5px;
-    border-radius: 10px;
+.navbar .navbar-brand {
+  background-color: gray;
+  color: greenyellow;
+  border-color: greenyellow;
+  border-style: groove;
+  font-size: xx-large;
+  border-width: 5px;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .btn {
-    background-color: greenyellow;
-    color: gray;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: greenyellow;
+  color: gray;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .promos {
-    text-align: center;
+  text-align: center;
+}
+.promos h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: gray;
+  color: greenyellow;
+  border-color: greenyellow;
+  border-style: groove;
+  font-size: xx-large;
+  border-width: 5px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 #cartas {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-#youtube {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+footer {
+  background-image: radial-gradient(gray, black);
+  text-align: center;
+  font-size: x-large;
+  justify-content: center;
+}
+footer .container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.box__footer .logo img {
+  width: 150px;
+}
 
+.box__footer .nosotros {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+  border-color: greenyellow;
+  border-style: groove;
+  font-size: xx-large;
+  border-width: 5px;
+  border-radius: 10px;
+}
 
-footer{
-   
-    background-image: radial-gradient(gray,black);
-    text-align: center;
-    font-size: x-large;
-    justify-content: center;
-    
+.box__footer .redes {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+  border-color: greenyellow;
+  border-style: groove;
+  font-size: xx-large;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+.box__footer a {
+  margin-top: 10px;
+  color: greenyellow;
+  font-weight: 600;
+}
+.box__footer a:hover {
+  opacity: 0.3;
 }
 
 form {
-    background-color: gray;
-    color: greenyellow;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-
-
-.container__footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    text-align: center;
-    
-}
-
-.box__footer{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    
-}
-
-.box__footer .logo img{
-    width: 150px;
-}
-
-.box__footer .nosotros{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: greenyellow;
-    border-color: greenyellow;
-    border-style:groove;
-    font-size:xx-large;
-    border-width: 5px;
-    border-radius: 10px;
-}
-
-.box__footer .redes{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: greenyellow;
-    border-color: greenyellow;
-    border-style:groove;
-    font-size:xx-large;
-    border-width: 5px;
-    border-radius: 10px;
-}
-
-
-.box__footer a{
-    margin-top: 10px;
-    color: greenyellow;
-    font-weight: 600;
-}
-
-.box__footer a:hover{
-    opacity: 0.8;
-}
-
-.box__footer a .fab{
-    font-size: 20px;
+  background-color: gray;
+  color: greenyellow;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 /* keyframes */
-
 @keyframes logo_animado {
-    0% {}
-    25% {
-        transform:scale(1.1, 1.1);
-    }
-    50% {
-        transform:scale(1.2, 1.2);
-    }
-    75% {
-        transform:scale(1.1, 1.1);
-    }
-    100% {
-        transform:scale(1.1, 1.1);
-    }
-    to {
-        transform: scale(1, 1);
-    }
+  25% {
+    transform: scale(1.1, 1.1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  75% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
 }
-
 h1 {
-    animation-name: logo_animado;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  animation-name: logo_animado;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
-
-.logo {
-    animation-name: logo_animado;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+h1 .logo {
+  animation-name: logo_animado;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes slidein {
-    from {
-        margin-left: 50%;
-        width: 50%
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 50%;
-      }
-    }
+  from {
+    margin-left: 50%;
+    width: 50%;
+  }
+  to {
+    margin-left: 0%;
+    width: 50%;
+  }
+}
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
-    h2 {
-        animation-duration: 3s;
-        animation-name: slidein;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-      }
+/*# sourceMappingURL=style.css.map */
